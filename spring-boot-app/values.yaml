@@ -2,7 +2,7 @@ replicaCount: 2
 
 image:
   repository: mohan1607/ultimate-cicd
-  tag: 5
+  tag:16
   pullPolicy: IfNotPresent
 
 service:
