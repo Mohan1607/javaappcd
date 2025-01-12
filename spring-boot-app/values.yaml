@@ -1,0 +1,17 @@
+replicaCount: 2
+
+image:
+  repository: mohan1607/ultimate-cicd
+  tag: "48"
+  pullPolicy: IfNotPresent
+
+service:
+  type: NodePort
+  port: 80
+  targetPort: 8080
+  nodePort: 30080
+
+containerPort: 8080
+
+labels:
+  app: spring-boot-app
